@@ -33,7 +33,8 @@ class SpringBootTest {
 	@Test
 	public void testSaveProduct()
 	{
-		Product product=new Product(1,"2325","phone",3000.0,"5%","available");
+		int a=1;
+		Product product=new Product(Integer.valueOf(a),"2325","phone",3000.0,"5%","available");
 		Product savedProduct=repo.save(product);
 		assertNotNull(savedProduct);
 	}
