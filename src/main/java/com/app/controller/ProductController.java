@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import com.app.model.Product;
 import com.app.service.ProductService;
 @Controller
-@RequestMapping("/emp")
+//@RequestMapping("/emp")
 public class ProductController {
 @Autowired
 private ProductService service;

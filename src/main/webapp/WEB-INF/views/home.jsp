@@ -7,6 +7,6 @@
 <title>Home</title>
 </head>
 <body>
-	<jsp:forward page="welcome"/>
+<div><a href="reg">Register</a></div>
 </body>
 </html>
